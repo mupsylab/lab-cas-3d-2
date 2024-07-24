@@ -74,6 +74,3 @@ linux:
 appImage:
   artifactName: ${name}-${version}.${ext}
 npmRebuild: false
-publish:
-  provider: GitHub
-  url: https://github.com

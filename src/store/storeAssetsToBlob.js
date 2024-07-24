@@ -53,7 +53,7 @@ export const useLoaderAssets = defineStore("loader-assets-to-blob", {
         },
         addImageToBlobByAsync(cameraFov, lightPos, frame) {
             const _this = this;
-            const url = `/assets/${cameraFov}/${lightPos}/${frame.toString().padStart(4, "0")}.png`;
+            const url = `./assets/${cameraFov}/${lightPos}/${frame.toString().padStart(4, "0")}.png`;
 
             fetch(url, {
                 keepalive: false,
